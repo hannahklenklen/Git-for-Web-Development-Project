@@ -111,8 +111,20 @@ Review Questions
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-        
+        An inline element will keep with the flow of a line of text (span), a block element will get its own line (div).
     2. What happens when an element is positioned absolutely? 
+        The element overlaps anything in it's same position; there is no space cut out for an element that is positioned absolutely.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block 
+            1. p
+            2. div
+            3. li
+        inline 
+            1. span
+            2. a
+        inline-block  
+            1. 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        The box model is made up of content, padding, border, and margin. The content is at the center of the "box", the padding is the space between the content and the border, the border seperates the padding and the margin, and the margin is the space between the border and the rest of the page.
